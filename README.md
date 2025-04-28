@@ -44,12 +44,16 @@ pnpm run dev
 
 ## TODO:
 - [x] Project structure and setup
-- [ ] Supabase local + remote setup
-- [ ] Add shadcn components
-- [ ] Dark / Light mode
-- [ ] Authentication flow
-- [ ] SMTP Setup + Templates
-- [ ] Notification Emails
+- [x] Supabase local + remote setup
+- [x] Add DaisyUI
+- [x] Dark / Light mode
+- [x] Authentication flow
+- [ ] User Settings
+- [ ] Homepage UI
+- [ ] Pricing Page UI
 - [ ] DB schema and seed
 - [ ] Stripe checkout
 - [ ] Stripe webhooks
+- [ ] Paywall
+- [ ] SMTP Setup + Templates
+- [ ] Notification Emails
