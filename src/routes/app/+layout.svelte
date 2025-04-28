@@ -13,12 +13,19 @@
 	};
 </script>
 
-<header class="container mx-auto flex items-center justify-between gap-3 px-4 py-8">
-	<nav class="flex items-center justify-between gap-3">
-		<a href="/">Home</a>
-		<a href="/app/dashboard">Dashboard</a>
-	</nav>
-	<button onclick={logout}>Logout</button>
+<header class="navbar container mx-auto">
+	<div class="navbar-start">
+		<h1 class="text-xl font-bold">Saas Starter</h1>
+	</div>
+	<div class="navbar-center">
+		<nav class="menu menu-horizontal">
+			<li><a href="/app/dashboard" class="menu-active">Dashboard</a></li>
+			<li><a href="/app/settings">Settings</a></li>
+		</nav>
+	</div>
+	<div class="navbar-end gap-2">
+		<button class="btn btn-sm" onclick={logout}>Logout</button>
+	</div>
 </header>
 <main>
 	{@render children()}

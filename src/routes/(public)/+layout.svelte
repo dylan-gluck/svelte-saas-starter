@@ -13,16 +13,24 @@
 	};
 </script>
 
-<header class="container mx-auto flex items-center justify-between gap-3 px-4 py-8">
-	<nav class="flex items-center justify-between gap-3">
-		<a href="/">Home</a>
-		<a href="/">Pricing</a>
-	</nav>
-	{#if user}
-		<button onclick={logout}>Logout</button>
-	{:else}
-		<a href="/auth">Login</a>
-	{/if}
+<header class="navbar container mx-auto">
+	<div class="navbar-start">
+		<h1 class="text-xl font-bold">Saas Starter</h1>
+	</div>
+	<div class="navbar-center">
+		<nav class="menu menu-horizontal">
+			<li><a href="/">Home</a></li>
+			<li><a href="/">Pricing</a></li>
+		</nav>
+	</div>
+	<div class="navbar-end gap-2">
+		{#if user}
+			<a class="btn btn-primary btn-sm" href="/app/dashboard">Dashboard</a>
+			<button class="btn btn-sm" onclick={logout}>Logout</button>
+		{:else}
+			<a class="btn btn-sm" href="/auth">Login</a>
+		{/if}
+	</div>
 </header>
 <main>
 	{@render children()}
