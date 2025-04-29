@@ -15,7 +15,7 @@
 
 <header class="navbar container mx-auto">
 	<div class="navbar-start">
-		<h1 class="text-xl font-bold">Saas Starter</h1>
+		<a href="/"><h1 class="text-xl font-bold">Saas Starter</h1></a>
 	</div>
 	<div class="navbar-center">
 		<nav class="menu menu-horizontal">
