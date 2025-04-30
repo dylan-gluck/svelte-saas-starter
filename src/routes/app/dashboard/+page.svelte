@@ -1,2 +1,5 @@
-<h1>Dashboard</h1>
-<p>Logged in</p>
+<div class="py-12">
+	<div class="container">
+		<h1 class="text-4xl font-bold leading-none">Dashboard</h1>
+	</div>
+</div>
