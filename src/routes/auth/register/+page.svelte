@@ -6,12 +6,12 @@
 </script>
 
 <div class="py-24 sm:py-32">
-	<form method="POST" action="?/login" class="container max-w-lg">
+	<form method="POST" action="?/signup" class="container max-w-lg">
 		<a href="/"><h1 class="mb-10 text-center text-3xl font-bold">abc.</h1></a>
 		<Card.Root>
 			<Card.Header>
-				<Card.Title class="text-2xl">Login</Card.Title>
-				<Card.Description>Enter your email below to login to your account</Card.Description>
+				<Card.Title class="text-2xl">Create Account</Card.Title>
+				<Card.Description>Enter your email and password to create an account</Card.Description>
 			</Card.Header>
 			<Card.Content class="space-y-2">
 				<div class="space-y-2">
@@ -24,11 +24,10 @@
 				</div>
 			</Card.Content>
 			<Card.Footer class="flex flex-col gap-3">
-				<Button type="submit" class="w-full">Login</Button>
-				<Button type="button" variant="outline" class="w-full">Login with Google</Button>
+				<Button type="submit" class="w-full">Sign Up</Button>
 				<div class="mt-2 text-center text-sm">
-					Don't have an account?
-					<a href="/auth/register" class="underline">Sign up</a>
+					Already have an account?
+					<a href="/auth" class="underline">Login</a>
 				</div>
 			</Card.Footer>
 		</Card.Root>
