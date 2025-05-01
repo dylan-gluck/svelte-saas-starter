@@ -15,6 +15,28 @@ This is a starter template for building a SaaS application using Svelte and Svel
 
 - Node.js >= 22.0.0
 - PNPM >= 9.0.0
+- Stripe CLI >= 1.26.1
+
+Stripe CLI:
+
+```bash
+stripe login
+```
+
+Supabase Local Setup (Optional):
+
+```bash
+pnpm supabase init
+pnpm supabase start
+```
+
+## Setup
+
+Create .env.local file:
+
+```bash
+pnpm run db:setup
+```
 
 ### Run Project
 
@@ -22,12 +44,6 @@ Install dependencies:
 
 ```bash
 pnpm install
-```
-
-Start local Supabase instance:
-
-```bash
-pnpm supabase start
 ```
 
 Start development server:
