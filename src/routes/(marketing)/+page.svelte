@@ -21,13 +21,13 @@
 			<div
 				class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-foreground sm:grid-cols-2 md:flex lg:gap-x-10"
 			>
-				<a href="#">Documentation <span aria-hidden="true">&rarr;</span></a>
-				<a href="#">Github <span aria-hidden="true">&rarr;</span></a>
+				<a href="##">Documentation <span aria-hidden="true">&rarr;</span></a>
+				<a href="##">Github <span aria-hidden="true">&rarr;</span></a>
 			</div>
 			<dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
 				<div class="flex flex-col-reverse gap-1">
 					<dt class="text-base/7 text-gray-300">Supabase</dt>
-					<dd class="text-4xl font-semibold tracking-tight text-foreground">Authentication</dd>
+					<dd class="text-4xl font-semibold tracking-tight text-foreground">DB + Auth</dd>
 				</div>
 				<div class="flex flex-col-reverse gap-1">
 					<dt class="text-base/7 text-gray-300">Supabase</dt>

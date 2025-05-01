@@ -4,13 +4,10 @@ This is a starter template for building a SaaS application using Svelte and Svel
 
 ## Features
 
-- **Authentication**: Supabase
-- **Database**: Supabase
-- **Payments**: Stripe + Webhooks
-- **Styling**: Tailwind CSS
+- **DB + Auth**: Supabase
+- **Payments**: Stripe
+- **Styling**: Tailwind
 - **UI**: Shadcn UI
-- **Testing**: Vitest
-- **Deployment**: Docker
 
 ## Local Development
 
@@ -18,7 +15,6 @@ This is a starter template for building a SaaS application using Svelte and Svel
 
 - Node.js >= 22.0.0
 - PNPM >= 9.0.0
-- Supabase CLI >= 2.22.6
 
 ### Run Project
 
@@ -44,16 +40,16 @@ pnpm run dev
 
 ## TODO:
 - [x] Project structure and setup
-- [ ] Supabase local + remote setup
+- [x] Supabase local + remote setup
 - [x] Add Shadcn UI
-- [ ] Dark / Light mode
-- [ ] Authentication flow
-- [ ] User Settings
+- [x] Dark / Light mode
+- [x] Authentication flow
 - [ ] Homepage UI
 - [ ] Pricing Page UI
 - [ ] DB schema and seed
 - [ ] Stripe checkout
 - [ ] Stripe webhooks
 - [ ] Paywall
+- [ ] User Settings
 - [ ] SMTP Setup + Templates
 - [ ] Notification Emails

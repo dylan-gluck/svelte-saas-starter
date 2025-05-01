@@ -3,6 +3,10 @@
 	import { Button } from '@/components/ui/button';
 </script>
 
+<svelte:head>
+	<title>Error | Svelte Saas Starter</title>
+</svelte:head>
+
 <main class="grid min-h-full place-items-center bg-background px-6 py-24 sm:py-32 lg:px-8">
 	<div class="text-center">
 		<p class="text-base font-semibold text-primary">Uh oh!</p>

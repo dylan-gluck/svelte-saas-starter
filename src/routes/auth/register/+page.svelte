@@ -5,6 +5,10 @@
 	import { Input } from '@/components/ui/input';
 </script>
 
+<svelte:head>
+	<title>Create Account | Svelte Saas Starter</title>
+</svelte:head>
+
 <div class="py-24 sm:py-32">
 	<form method="POST" action="?/signup" class="container max-w-lg">
 		<a href="/"><h1 class="mb-10 text-center text-3xl font-bold">abc.</h1></a>
