@@ -1,9 +1,9 @@
-<script>
-	let { data } = $props();
-	let { user } = $derived(data);
-</script>
+<svelte:head>
+	<title>Dashboard | Svelte Saas Starter</title>
+</svelte:head>
 
-<div class="container mx-auto px-4 py-8">
-	<h1 class="text-3xl font-bold">Dashboard</h1>
-	<p>Logged in user {user?.email ?? 'Unknown'}</p>
+<div class="py-12">
+	<div class="container">
+		<h1 class="text-4xl font-bold leading-none">Dashboard</h1>
+	</div>
 </div>
